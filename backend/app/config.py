@@ -1,0 +1,6 @@
+
+class Config:
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///library.db'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SECRET_KEY = '04/Dec/2024 14:12:45'
+    JWT_SECRET_KEY = '05/Dec/2024 14:12:45'
